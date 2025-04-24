@@ -464,13 +464,18 @@ main {
 }
 
 .about-us-description p {
-    color: #fff;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
-    border-radius: 5px;
-    background-color: #ffffff16;
-    padding: 20px;
+  background-color: #1a1a1a;
+  color: #ff4d4d;
+  font-size: 20px; 
+  line-height: 1.8; 
+  padding: 30px 40px; 
+  border-left: 8px solid #ff1a1a; 
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 6px 18px rgba(255, 0, 0, 0.25);
+  background-image: linear-gradient(to right, #1a1a1a, #330000);
     
 }
 .additional-info {
@@ -1203,12 +1208,18 @@ header h1 {
 
 
 .introduction {
-    text-align: center;
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
-    border-radius: 5px;
-    background-color: #ffffff16;
+  background-color: #1a1a1a;
+  color: #ff4d4d;
+  font-size: 20px; /* increased from 18px */
+  line-height: 1.8; /* more spacing for readability */
+  padding: 30px 40px; /* more space around text */
+  border-left: 8px solid #ff1a1a; /* thicker border */
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 6px 18px rgba(255, 0, 0, 0.25);
+  background-image: linear-gradient(to right, #1a1a1a, #330000);
     
 }
 
