@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2Z Game Store - PC components </title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+<link rel="apple-touch-icon" sizes="192x192" href="icons/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="512x512" href="icons/android-chrome-512x512.png">
+<script src="main.js" defer></script>
+
+
+</head>
+<body style="background-image: url(img/pxfuel.jpg);">
+  
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="Website Logo" class="website-logo" />
+                <h1>A2Z PC store</h1>
+            </div>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+            </div>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="index.html">Home</a>
+              <a href="about us.html">About Us</a>
+              <a href="upcoming games.html">Upcoming</a>
+              <a href="consoles.html">Consoles</a>
+              <a href="peripherals.html">Gaming Peripherals</a>
+              <a href="games.html">Games</a>
+              <a href="pc parts.html">PC components</a>
+              <a href="queries and faqs.html">Queries and FAQs</a>
+            </div>
+        </div>
+    </header> 
+
+    <div class="page-description">
+      Discover top-quality components to power up your custom builds. From cutting-edge processors to high-performance graphics cards and reliable storage solutions, everything you need to create your dream PC is right here.
+    </div>
+
+<!-- Processors -->
+<section class="section">
+  <h2>Processors</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="pcparts img/Intel Core i9-13900K 3.webp" onclick="openImage(this)"alt="Intel i9">
+      <h3>Intel Core i9-13900K</h3>
+      <p>24 Cores, 32 Threads, 5.8 GHz</p>
+      <p class="pcprice">Rs. 150,000</p>
+      <input type="number" min="0" id="Intel_i9">
+    </div>
+    
+    <div class="product">
+      <img src="pcparts img/AMD Ryzen 9 7900X.jpeg"onclick="openImage(this)"alt="Ryzen 9 7900X">
+      <div class="product-details">
+        <h3>AMD Ryzen 9 7900X</h3>
+        <p>12 Cores, 24 Threads, 5.6 GHz</p>
+        <p class="pcprice">Rs. 110,000</p>
+      </div>
+      <input type="number" min="0" id="AMD_Ryzen_97900">
+    </div>
+
+    <div class="product">
+      <img src="pcparts img/Intel Core i5-13600K.jpeg" onclick="openImage(this)"alt="Intel i5">
+      <div class="product-details">
+        <h3>Intel Core i5-13600K</h3>
+        <p>14 Cores, 20 Threads, 5.1 GHz</p>
+        <p class="pcprice">Rs. 70,000</p>
+      </div>
+      <input type="number" min="0" id="Intel_i5">
+    </div>
+    <div class="product">
+      <img src="pcparts img/AMD Ryzen 9 7950X.jpg"onclick="openImage(this)"alt="Ryzen 9">
+      <h3>AMD Ryzen 9 7950X</h3>
+      <p>16 Cores, 32 Threads, 5.7 GHz</p>
+      <p class="pcprice">Rs. 135,000</p>
+      <input type="number" min="0" id="AMD_Ryzen_97950">
+    </div>
+    <div class="product">
+      <img src="pcparts img/Intel Core i7-13700K.jpg"onclick="openImage(this)" alt="Intel i7">
+      <h3>Intel Core i7-13700K</h3>
+      <p>16 Cores, 24 Threads, 5.4 GHz</p>
+      <p class="pcprice">Rs. 100,000</p>
+      <input type="number" min="0" id="Intel_i7">
+    </div>
+    <div class="product">
+      <img src="pcparts img/AMD Ryzen 7 7700X.jpg" onclick="openImage(this)"alt="Ryzen 7">
+      <h3>AMD Ryzen 7 7700X</h3>
+      <p>8 Cores, 16 Threads, 5.4 GHz</p>
+      <p class="pcprice">Rs. 90,000</p>
+      <input type="number" min="0" id="Ryzen_7">
+    </div>
+  </div>
+</section>
+
+<!-- Graphic Cards -->
+<section class="section">
+  <h2>Graphic Cards</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="pcparts img/NVIDIA RTX 4070 Ti.jpeg" onclick="openImage(this)"alt="RTX 4070 Ti">
+      <h3>NVIDIA RTX 4070 Ti</h3>
+      <p>12GB GDDR6X, Ray Tracing</p>
+      <p class="pcprice">Rs. 210,000</p>
+      <input type="number" min="0" id="RTX_4070_Ti">
+    </div>
+    <div class="product">
+      <img src="pcparts img/NVIDIA RTX 4080.jpeg" onclick="openImage(this)"alt="RTX 4080">
+      <div class="product-details">
+        <h3>NVIDIA RTX 4080</h3>
+        <p>16GB GDDR6X, DLSS 3</p>
+        <p class="pcprice">Rs. 320,000</p>
+      </div>
+      <input type="number" min="0" id="RTX_4080">
+    </div>
+
+    <div class="product">
+      <img src="pcparts img/AMD Radeon RX 7900 XT.jpg"onclick="openImage(this)" alt="RX 7900 XT">
+      <div class="product-details">
+        <h3>AMD Radeon RX 7900 XT</h3>
+        <p>20GB GDDR6, Ray Tracing</p>
+        <p class="pcprice">Rs. 260,000</p>
+      </div>
+      <input type="number" min="0" id="RX_7900_XT">
+    </div>
+    <div class="product">
+      <img src="pcparts img/AMD Radeon RX 7900 XTX.webp"onclick="openImage(this)" alt="RX 7900 XTX">
+      <h3>AMD Radeon RX 7900 XTX</h3>
+      <p>24GB GDDR6, RDNA 3</p>
+      <p class="pcprice">Rs. 195,000</p>
+      <input type="number" min="0" id="RX_7900_XTX">
+    </div>
+    <div class="product">
+      <img src="pcparts img/NVIDIA RTX 4060.jpg" onclick="openImage(this)"alt="RTX 4060">
+      <h3>NVIDIA RTX 4060</h3>
+      <p>8GB GDDR6, DLSS 3</p>
+      <p class="pcprice">Rs. 290,000</p>
+      <input type="number" min="0" id="RTX_4060">
+    </div>
+    <div class="product">
+      <img src="pcparts img/AMD RX 6700 XT.jpg"onclick="openImage(this)" alt="RX 6700 XT">
+      <h3>AMD RX 6700 XT</h3>
+      <p>12GB GDDR6, PCIe 4.0</p>
+      <p class="pcprice">Rs. 95,000</p>
+      <input type="number" min="0" id="RX_6700_XT">
+    </div>
+  </div>
+</section>
+
+<!-- Motherboards -->
+<section class="section">
+  <h2>Motherboards</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="pcparts img/ASUS ROG Strix Z790-E.webp" onclick="openImage(this)"alt="Z790-E">
+      <h3>ASUS ROG Strix Z790-E</h3>
+      <p>DDR5, PCIe 5.0, Wi-Fi 6E</p>
+      <p class="pcprice">Rs. 85,000</p>
+      <input type="number" min="0" id="Z790_E">
+    </div>
+    <div class="product">
+      <img src="pcparts img/MSI MAG B550 TOMAHAWK.jpeg" onclick="openImage(this)"alt="B550">
+      <h3>MSI MAG B550 TOMAHAWK</h3>
+      <p>DDR4, PCIe 4.0, AM4</p>
+      <p class="pcprice">Rs. 50,000</p>
+      <input type="number" min="0" id="B550">
+    </div>
+    
+    <div class="product">
+      <img src="pcparts img/Gigabyte X670E AORUS Master.jpeg" onclick="openImage(this)"alt="X670E">
+      <h3>Gigabyte X670E AORUS Master</h3>
+      <p>DDR5, USB-C, AM5</p>
+      <p class="pcprice">Rs. 100,000</p>
+      <input type="number" min="0" id="X670E">
+    </div>
+
+    <div class="product">
+      <img src="pcparts img/MSI B550-A PRO.webp"onclick="openImage(this)" alt="MSI B550-A PRO">
+      <div class="product-details">
+        <h3>MSI B550-A PRO</h3>
+        <p>DDR4, PCIe 4.0, Wi-Fi 6</p>
+        <p class="pcprice">Rs. 30,000</p>
+      </div>
+      <input type="number" min="0" id="B550_A_PRO">
+    </div>
+
+    <div class="product">
+      <img src="pcparts img/Gigabyte Z590 AORUS ELITE.jpg"onclick="openImage(this)" alt="Gigabyte Z590 AORUS ELITE">
+      <div class="product-details">
+        <h3>Gigabyte Z590 AORUS ELITE</h3>
+        <p>DDR4, PCIe 4.0, 10Gb Ethernet</p>
+        <p class="pcprice">Rs. 45,000</p>
+      </div>
+      <input type="number" min="0" id="Z590_AORUS_ELITE">
+    </div>
+    <div class="product">
+      <img src="pcparts img/ASRock H610M.jpg" onclick="openImage(this)"alt="H610M">
+      <h3>ASRock H610M-HDV/M.2</h3>
+      <p>Intel LGA1700, DDR4</p>
+      <p class="pcprice">Rs. 25,000</p>
+      <input type="number" min="0" id="H610M">
+    </div>
+  </div>
+</section>
+
+<!-- RAM -->
+<section class="section">
+  <h2>Memory (RAM)</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="pcparts img/Corsair Vengeance 16GB.webp" onclick="openImage(this)"alt="Corsair DDR5">
+      <h3>Corsair Vengeance 16GB</h3>
+      <p>DDR5, 5600MHz, CL36</p>
+      <p class="pcprice">Rs. 25,000</p>
+      <input type="number" min="0" id="Corsair_DDR5">
+    </div>
+    <div class="product">
+      <img src="pcparts img/G.Skill Ripjaws V 16GB.jpg" onclick="openImage(this)"alt="G.Skill DDR4">
+      <h3>G.Skill Ripjaws V 16GB</h3>
+      <p>DDR4, 3200MHz, CL16</p>
+      <p class="pcprice">Rs. 14,000</p>
+      <input type="number" min="0" id="gSkill_DDR4">
+    </div>
+    <div class="product">
+      <img src="pcparts img/G.Skill Ripjaws V 32GB.jpg"onclick="openImage(this)" alt="Ripjaws V 32GB" >
+      <div class="product-details">
+        <h3>G.Skill Ripjaws V 32GB</h3>
+        <p>DDR4, 3600MHz, CL16</p>
+        <p class="pcprice">Rs. 12,000</p>
+      </div>
+      <input type="number" min="0" id="Ripjaws_V_32GB">
+    </div>
+
+    <div class="product">
+      <img src="pcparts img/Corsair Vengeance LPX 32GB.jpg" onclick="openImage(this)"alt="Corsair Vengeance LPX 32GB">
+      <div class="product-details">
+        <h3>Corsair Vengeance LPX 32GB</h3>
+        <p>DDR4, 3200MHz, CL16</p>
+        <p class="pcprice">Rs. 18,000</p>
+      </div>
+      <input type="number" min="0" id="Corsair_32G">
+    </div>
+    <div class="product">
+      <img src="pcparts img/Kingston Fury Beast 32GB.webp" onclick="openImage(this)"alt="Kingston Fury">
+      <h3>Kingston Fury Beast 32GB</h3>
+      <p>DDR5, 6000MHz</p>
+      <p class="pcprice">Rs. 45,000</p>
+      <input type="number" min="0" id="Kingston_Fury_32GB">
+    </div>
+    <div class="product">
+      <img src="pcparts img/TeamGroup T-Force Delta 16GB.jpg"onclick="openImage(this)" alt="TeamGroup T-Force">
+      <h3>TeamGroup T-Force Delta 16GB</h3>
+      <p>RGB DDR5, 6000MHz</p>
+      <p class="pcprice">Rs. 28,000</p>
+      <input type="number" min="0" id="T_Force_16GB">
+    </div>
+  </div>
+</section>
+
+<!-- Storage -->
+<section class="section">
+  <h2>Storage</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="pcparts img/Samsung 980 PRO 1TB.jpeg" onclick="openImage(this)"alt="980 Pro 1TB">
+      <h3>Samsung 980 PRO 1TB</h3>
+      <p>NVMe M.2 SSD, 7000MB/s</p>
+      <p class="pcprice">Rs. 32,000</p>
+      <input type="number" min="0" id="samsung_Pro_1TB">
+    </div>
+    <div class="product">
+      <img src="pcparts img/Crucial P3 500GB.webp"onclick="openImage(this)" alt="Crucial P3">
+      <h3>Crucial P3 500GB</h3>
+      <p>NVMe M.2 SSD, 3500MB/s</p>
+      <p class="pcprice">Rs. 12,000</p>
+      <input type="number" min="0" id="Crucial_P3_500GB">
+    </div>
+    <div class="product">
+      <img src="pcparts img/Crucial P5 Plus 1TB.jpg" onclick="openImage(this)"alt="Crucial P5 Plus 1TB">
+      <div class="product-details">
+        <h3>Crucial P5 Plus 1TB</h3>
+        <p>NVMe M.2 SSD, 6600MB/s</p>
+        <p class="pcprice">Rs. 26,000</p>
+      </div>
+      <input type="number" min="0" id="Crucial_P5_Plus_1TB">
+    </div>
+
+    <div class="product">
+      <img src="pcparts img/Western Digital Black SN850 1TB.jpg" onclick="openImage(this)"alt="Western Digital Black SN850 1TB">
+      <div class="product-details">
+        <h3>Western Digital Black SN850 1TB</h3>
+        <p>NVMe M.2 SSD, 7000MB/s</p>
+        <p class="pcprice">Rs. 29,000</p>
+      </div>
+      <input type="number" min="0" id="SN850_1TB">
+    </div>
+    <div class="product">
+      <img src="pcparts img/Seagate Barracuda 2TB.jpg" onclick="openImage(this)"alt="Seagate HDD">
+      <h3>Seagate Barracuda 2TB</h3>
+      <p>7200RPM SATA HDD</p>
+      <p class="pcprice">Rs. 15,000</p>
+      <input type="number" min="0" id="Seagate_2TB">
+    </div>
+    <div class="product">
+      <img src="pcparts img/WD Blue 1TB SSD.png"onclick="openImage(this)" alt="WD Blue SSD">
+      <h3>WD Blue 1TB SSD</h3>
+      <p>2.5” SATA SSD, 560MB/s</p>
+      <p class="pcprice">Rs. 19,000</p>
+      <input type="number" min="0" id="WD_Blue_1TB">
+    </div>
+  </div>
+</section>
+<div class="tabsection">
+  <button onclick="addToCart()">Add to Cart</button><th></th>
+  <button onclick="saveFavourite()">Add to Favourites</button><th></th>
+  <button onclick="applyFavourite()">Apply Favourites</button><th></th>
+</div>
+<div class="Current-order-table">
+  <h2>Current Order</h2>
+  <table id="cart-table">
+    <thead>
+      <tr><th>Item</th><th>Qty</th><th>Price</th></tr>
+    </thead>
+    <tbody></tbody>
+    <tfoot>
+      <tr><td colspan="2">Total</td><td id="total-price">Rs.0</td></tr>
+    </tfoot>
+  </table>
+  </div>
+  <div id="image-popup" class="popup" onclick="closeImage()">
+    <img id="popup-img" src="" alt="Popup Image">
+  </div>
+  <button onclick="buyNow()">Proceed to checkout</button>
+
+</body>
+<footer>
+    <p>2025 A2Z Game Store. All Rights Reserved.</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</footer>
+</html>
