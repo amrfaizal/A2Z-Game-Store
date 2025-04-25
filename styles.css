@@ -1291,24 +1291,6 @@ footer {
     padding: 5px;
 }
 
-
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 10px;
-}
-
-.social-icons a {
-    color: #ffffff;
-    font-size: 1.5rem;
-}
-
-.social-icons a:hover {
-    color: #58a6ff;
-}
-
 footer p {
     font-size: 0.9rem;
 }
